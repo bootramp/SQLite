@@ -1,5 +1,8 @@
 import sqlite3
 import random
+
+#CRUD ----> Create - Read - Update - Delete
+
 first_name = ['Ali' , 'Reza' , 'Mamad' , 'Javad' , 'Gholam' , 'faeze' , 'Mozgan' , 'Marzie' , 'Tahere']
 
 
@@ -23,3 +26,7 @@ for i in range(1,10) :
     #Update
     # cur.execute("UPDATE students SET grade = ? WHERE id = ?" , (2,12))
     # conn.commit()
+    
+    
+    #Delete
+    # cur.execute("DELETE FROM students WHERE id = 2")
